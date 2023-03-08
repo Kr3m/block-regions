@@ -2,4 +2,4 @@
 
 ##Usage:
 
-```sudo ./countryblock.sh```
+```sudo ./countryblock.sh blocklist.txt```
