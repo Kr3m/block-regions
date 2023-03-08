@@ -1,0 +1,33 @@
+# -------------------------------------------------------
+# Free IP2Location Firewall List by Country
+# Source: https://www.ip2location.com/free/visitor-blocker
+# Last Generated: 08 Mar 2023 01:50:00 GMT
+# [Important] Please update this list every month
+# -------------------------------------------------------
+iptables -A INPUT -s 104.28.67.232/31 -j DROP
+iptables -A INPUT -s 104.28.67.234/32 -j DROP
+iptables -A INPUT -s 104.28.70.232/31 -j DROP
+iptables -A INPUT -s 104.28.70.234/32 -j DROP
+iptables -A INPUT -s 104.28.84.2/31 -j DROP
+iptables -A INPUT -s 104.28.84.4/32 -j DROP
+iptables -A INPUT -s 104.28.99.253/32 -j DROP
+iptables -A INPUT -s 104.28.99.254/32 -j DROP
+iptables -A INPUT -s 104.28.100.0/32 -j DROP
+iptables -A INPUT -s 104.28.101.253/32 -j DROP
+iptables -A INPUT -s 104.28.101.254/32 -j DROP
+iptables -A INPUT -s 104.28.102.0/32 -j DROP
+iptables -A INPUT -s 104.28.118.226/31 -j DROP
+iptables -A INPUT -s 104.28.118.228/32 -j DROP
+iptables -A INPUT -s 104.28.121.226/31 -j DROP
+iptables -A INPUT -s 104.28.121.228/32 -j DROP
+iptables -A INPUT -s 104.28.197.243/32 -j DROP
+iptables -A INPUT -s 104.28.197.244/30 -j DROP
+iptables -A INPUT -s 104.28.197.248/31 -j DROP
+iptables -A INPUT -s 104.28.229.243/32 -j DROP
+iptables -A INPUT -s 104.28.229.244/30 -j DROP
+iptables -A INPUT -s 104.28.229.248/31 -j DROP
+iptables -A INPUT -s 172.224.254.32/27 -j DROP
+iptables -A INPUT -s 172.225.51.32/27 -j DROP
+iptables -A INPUT -s 172.225.56.96/27 -j DROP
+iptables -A INPUT -s 175.45.176.0/22 -j DROP
+iptables -A INPUT -s 202.72.96.4/30 -j DROP

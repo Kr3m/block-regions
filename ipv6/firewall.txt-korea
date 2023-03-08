@@ -1,0 +1,65 @@
+# -------------------------------------------------------
+# Free IP2Location Firewall List by Country
+# Source: https://www.ip2location.com/free/visitor-blocker
+# Last Generated: 08 Mar 2023 02:07:22 GMT
+# [Important] Please update this list every month
+# -------------------------------------------------------
+iptables -A INPUT -s ::FFFF:104.28.67.232/127 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.67.234/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.70.232/127 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.70.234/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.84.2/127 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.84.4/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.99.253/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.99.254/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.100.0/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.101.253/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.101.254/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.102.0/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.118.226/127 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.118.228/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.121.226/127 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.121.228/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.197.243/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.197.244/126 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.197.248/127 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.229.243/128 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.229.244/126 -j DROP
+iptables -A INPUT -s ::FFFF:104.28.229.248/127 -j DROP
+iptables -A INPUT -s ::FFFF:172.224.254.32/123 -j DROP
+iptables -A INPUT -s ::FFFF:172.225.51.32/123 -j DROP
+iptables -A INPUT -s ::FFFF:172.225.56.96/123 -j DROP
+iptables -A INPUT -s ::FFFF:175.45.176.0/118 -j DROP
+iptables -A INPUT -s ::FFFF:202.72.96.4/126 -j DROP
+iptables -A INPUT -s 2407:D340:712C::/48 -j DROP
+iptables -A INPUT -s 2606:54C0:3E80::/64 -j DROP
+iptables -A INPUT -s 2606:54C0:3EA0::/64 -j DROP
+iptables -A INPUT -s 2606:54C0:3EC0::/64 -j DROP
+iptables -A INPUT -s 2606:54C0:3EE0::/64 -j DROP
+iptables -A INPUT -s 2A02:26F7:B580:4000::/64 -j DROP
+iptables -A INPUT -s 2A02:26F7:B580:C420::/64 -j DROP
+iptables -A INPUT -s 2A02:26F7:B581:4000::/64 -j DROP
+iptables -A INPUT -s 2A02:26F7:B584:4000::/64 -j DROP
+iptables -A INPUT -s 2A02:26F7:B584:C420::/64 -j DROP
+iptables -A INPUT -s 2A02:26F7:B585:4000::/64 -j DROP
+iptables -A INPUT -s 2A02:26F7:B588:4000::/64 -j DROP
+iptables -A INPUT -s 2A02:26F7:B588:C420::/64 -j DROP
+iptables -A INPUT -s 2A02:26F7:B589:4000::/64 -j DROP
+iptables -A INPUT -s 2A02:5740:114::/48 -j DROP
+iptables -A INPUT -s 2A02:5741:114::/48 -j DROP
+iptables -A INPUT -s 2A02:5742:114::/48 -j DROP
+iptables -A INPUT -s 2A02:5743:114::/48 -j DROP
+iptables -A INPUT -s 2A02:5744:114::/48 -j DROP
+iptables -A INPUT -s 2A02:5745:114::/48 -j DROP
+iptables -A INPUT -s 2A02:5746:114::/48 -j DROP
+iptables -A INPUT -s 2A02:5747:114::/48 -j DROP
+iptables -A INPUT -s 2A09:BAC1:3E80::/64 -j DROP
+iptables -A INPUT -s 2A09:BAC1:3EA0::/64 -j DROP
+iptables -A INPUT -s 2A09:BAC1:3EC0::/64 -j DROP
+iptables -A INPUT -s 2A09:BAC1:3EE0::/64 -j DROP
+iptables -A INPUT -s 2A09:BAC2:4678::/45 -j DROP
+iptables -A INPUT -s 2A09:BAC3:4678::/45 -j DROP
+iptables -A INPUT -s 2A09:BAC5:4720::/45 -j DROP
+iptables -A INPUT -s 2A09:BAC6:4720::/45 -j DROP
+iptables -A INPUT -s 2A0A:6040:D730::/44 -j DROP
+iptables -A INPUT -s 2A12:DD47:DB9A::/48 -j DROP
